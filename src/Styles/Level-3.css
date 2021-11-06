@@ -1,0 +1,75 @@
+body.level-3 {
+    background-image: url('../images/wallpaper-level-3.gif');
+}
+
+body.level-3  h1#texto-principal::before {
+    content: "Nossas maiores batalhas são internas";
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+body.level-3 .progress{
+    border: solid 1px #737292;
+}
+
+body.level-3 .todo-input{
+    border: 2px solid #737292;
+}
+  
+body.level-3 .todo-app{
+    background: linear-gradient( 
+        30deg , 
+        #020308 30%, 
+        #222e42 90% );
+    border: solid 3px#2c3c54;
+}
+  
+body.level-3 .todo-button {
+    background: linear-gradient(
+        90deg,
+        rgb(115 114 146) 0%,
+        rgb(179 75 41) 100%
+    );
+}
+  
+body.level-3 .todo-button.edit {
+    background: linear-gradient(
+      90deg,
+      rgb(112 219 226) 0%,
+      rgb(212 255 232) 100%
+    );
+}
+
+  
+body.level-3 .todo-row {
+    background: linear-gradient(
+        90deg,
+        rgb(55 85 32) 0%,
+        rgb(58 33 24) 100%
+      );
+}
+
+body.level-3 .todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+        90deg,
+        rgb(118 112 141) 0%,
+        rgb(177 77 45) 100%
+      );
+}
+  
+body.level-3 .todo-row:nth-child(4n + 2) {
+    background: linear-gradient(
+        90deg,
+        rgb(175 78 47) 0%,
+        rgb(31 43 61) 100%
+      );
+}
+  
+body.level-3 .todo-row:nth-child(4n + 3) {
+    background: linear-gradient(
+        90deg,
+        rgb(32 43 61) 0%,
+        rgb(56 86 32) 100%
+      );
+}

@@ -1,0 +1,74 @@
+body.level-5 {
+    background-image: url('../images/wallpaper-level-5.gif');
+}
+
+body.level-5  h1#texto-principal::before {
+    content: "Mas com o tempo, você chegará no topo";
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+  
+body.level-5 .todo-app {
+    background: linear-gradient( 
+        3deg, 
+        #8b646c 30%, 
+        #0ed4be 90% );
+        border: solid 3px #25e2cd;
+}
+
+body.level-5 .progress{
+    border: solid 1px #ffffff;
+}
+
+body.level-5 .todo-input{
+    border: 2px solid #b3b3b3 ;
+}
+  
+body.level-5 .todo-button {
+    background: linear-gradient(
+        90deg,
+        #b3b3b3  0%,
+        #0ed4be 100%
+    );
+}
+  
+body.level-5 .todo-button.edit {
+    background: linear-gradient(
+      90deg,
+      rgb(112 219 226) 0%,
+      rgb(212 255 232) 100%
+    );
+}
+
+body.level-5 .todo-row {
+    background: linear-gradient(
+        90deg,
+        rgb(105 179 23) 0%,
+        rgb(249 249 238) 100%
+      );
+}
+
+body.level-5 .todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+        90deg,
+        rgb(161 121 119) 0%,
+        rgb(198 167 142) 100%
+      )
+}
+
+body.level-5 .todo-row:nth-child(4n + 2) {
+    background: linear-gradient(
+        90deg,
+        rgb(191 158 137) 0%,
+        rgb(94 136 54) 100%
+      );
+}
+
+body.level-5 .todo-row:nth-child(4n + 3) {
+    background: linear-gradient(
+        90deg,
+        rgb(94 136 54) 0%,
+        rgb(106 180 23) 100%
+      );
+}
