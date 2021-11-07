@@ -105,12 +105,12 @@ function ToDoList() {
             <Loading 
                 levelup = {Lvlup}
             />
+            <p id="quest"> Quest Atual:  </p>
             <ProgressBar
                 XPcount = {XPcount}
                 levelup = {Lvlup}
             />
             <h1 id="texto-principal">  </h1>
-            <p id="tema-principal">  </p>
             <ToDoForm onSubmit={addToDo} />
             <ToDo 
                 ToDos = {ToDos}

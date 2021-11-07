@@ -1,6 +1,7 @@
 import React from 'react';
 import './Styles/ToDo.css';
 import './Styles/ProgressBar.css';
+import './Styles/Loading.css';
 import './Styles/Level-1.css';
 import './Styles/Level-2.css';
 import './Styles/Level-3.css';

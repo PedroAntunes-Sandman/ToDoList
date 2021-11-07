@@ -1,12 +1,28 @@
+body.level-4 h1#chapter::before {
+  content: "Capítulo 4 - Olimpo em Ruínas";
+}
+
+body.level-4 p#story::before{
+  content:"'Isso é... inesperado. Aqui é o Olimpo... mas ele está diferente. E é o diferente ruim, bem ruim'";
+}
+
+body.level-4 p#story::after{
+  content:"'Talvez você tenha se convencido que é ruim em algo? Um projeto secundário que não toca faz muito tempo? Estou aceitando sugestões'";
+}
+
 body.level-4 {
     background-image: url('../images/wallpaper-level-4.gif');
 }
 
 body.level-4  h1#texto-principal::before {
-    content: "Vai parecer mais difícil e cansativo";
+    content: "Admirável é o sorriso de um coração triste";
     display: block;
     max-width: 400px;
     margin: auto;
+}
+
+body.level-4 p#quest::after {
+    content: "Tente algo novamente";
 }
   
 body.level-4 .todo-app {

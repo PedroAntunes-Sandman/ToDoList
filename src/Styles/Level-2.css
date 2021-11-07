@@ -1,12 +1,28 @@
+body.level-2 h1#chapter::before {
+  content: "Capítulo 2 - Em direção ao Olimpo";
+}
+
+body.level-2 p#story::before{
+  content:"'Nada mal, nada mal mesmo. Mas ainda temos muito o que trabalhar se quisermos chegar ao Olimpo'";
+}
+
+body.level-2 p#story::after{
+  content:"'Quando começarmos nossa jornada, estaremos conectados até o final. Então vamos ver suas habilidades no selvagem'";
+}
+
 body.level-2 {
     background-image: url('../images/wallpaper-level-2.gif');
 }
 
 body.level-2  h1#texto-principal::before {
-    content: "Uma longa viagem começa com um único passo";
+    content: "Uma longa viagem começa com um passo";
     display: block;
     max-width: 400px;
     margin: auto;
+}
+
+body.level-2 p#quest::after {
+    content: "Faça Tarefas Novas";
 }
 
 body.level-2 .progress{

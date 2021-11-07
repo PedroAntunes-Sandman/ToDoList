@@ -3,8 +3,23 @@
 	box-sizing: border-box;
 }
 
+#quest{
+	color: white;
+    font-size: 20px;
+	margin-top: 40px;
+}
+
+#close::before{
+	content: "Continuar";
+    margin-top: 20px;
+    font-size: 15px;
+    display: block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .level {
-	margin: 20px auto;
+	margin: 5px auto;
     margin-bottom: -45px;
     display: flex;
     align-items: center;

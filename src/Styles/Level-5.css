@@ -1,12 +1,28 @@
+body.level-5 h1#chapter::before {
+  content: "Capítulo 5 - Finalmente, Olimpo";
+}
+
+body.level-5 p#story::before{
+  content:"'Esse é o Olimpo que me lembro. Obrigado, você. Pode passar o tempo que quiser aqui antes de voltar.'";
+}
+
+body.level-5 p#story::after{
+  content:"'Mas, sabe, quando voltar para a cidade, fique de olho em fragmentos pela praça. Quem sabe eu volte algum dia para te visitar'";
+}
+
 body.level-5 {
     background-image: url('../images/wallpaper-level-5.gif');
 }
 
 body.level-5  h1#texto-principal::before {
-    content: "Mas com o tempo, você chegará no topo";
+    content: "Há uma força motriz mais poderosa que o vapor, a eletricidade e a energia atômica: a vontade.";
     display: block;
     max-width: 400px;
     margin: auto;
+}
+
+body.level-5 p#quest::after {
+    content: "Aproveite o Olimpo";
 }
   
 body.level-5 .todo-app {

@@ -1,12 +1,28 @@
+body.level-3 h1#chapter::before {
+  content: "Capítulo 3 - Batalhas internas";
+}
+
+body.level-3 p#story::before{
+  content:"'Parabéns... você! Agora falta pouco para nos conectarmos totalmente'";
+}
+
+body.level-3 p#story::after{
+  content:"'Para sermos um, você precisa aaumentar sua força de vontade. Significa que é hora de enfrentar seu maior inimigo... você mesmo!'";
+}
+
 body.level-3 {
     background-image: url('../images/wallpaper-level-3.gif');
 }
 
 body.level-3  h1#texto-principal::before {
-    content: "Nossas maiores batalhas são internas";
+    content: "As batalhas mais difíceis, são aquelas travadas e disputadas dentro da sua mente.";
     display: block;
     max-width: 400px;
     margin: auto;
+}
+
+body.level-3 p#quest::after {
+    content: "Combata maus hábitos";
 }
 
 body.level-3 .progress{
