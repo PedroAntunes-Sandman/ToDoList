@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+#quest {
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.leveling {
+	margin: 5px auto;
+    margin-bottom: -45px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.progress {
+    background-color: transparent;
+    border: solid 1px #498282;
+    border-radius: 20px;
+    position: relative;
+    height: 30px;
+    width: 300px;
+}
+
+.progress-done {
+    background: linear-gradient(to left, #72f270, #72ebff);
+    box-shadow: 0 3px 3px -5px #72ebff, 0 2px 5px #5aa990;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.progress-done p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

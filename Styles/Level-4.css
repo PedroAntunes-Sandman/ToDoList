@@ -1,0 +1,90 @@
+body.level-4 h1#chapter::before {
+  content: "Capítulo 4 - Olimpo em Ruínas";
+}
+
+body.level-4 p#story::before{
+  content:"'Isso é... inesperado. Aqui é o Olimpo... mas ele está diferente. E é o diferente ruim, bem ruim'";
+}
+
+body.level-4 p#story::after{
+  content:"'Talvez você tenha se convencido que é ruim em algo? Um projeto secundário que não toca faz muito tempo? Estou aceitando sugestões'";
+}
+
+body.level-4 {
+    background-image: url('../images/wallpaper-level-4.gif');
+}
+
+body.level-4  h1#texto-principal::before {
+    content: "Admirável é o sorriso de um coração triste";
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+body.level-4 p#quest::after {
+    content: "Tente algo novamente";
+}
+  
+body.level-4 .todo-app {
+    background: linear-gradient( 
+        330deg, 
+        #000c0c 30%, 
+        #35adaa 90% );
+        border: solid 3px#015e59;
+}
+
+body.level-4 .progress{
+    border: solid 1px #8cfdfb;
+}
+
+body.level-4 .todo-input{
+    border: 2px solid #8cfdfb;
+}
+  
+body.level-4 .todo-button {
+    background: linear-gradient(
+        90deg,
+        rgb(140 253 251) 0%,
+        rgb(8 118 115) 100%
+    )
+}
+  
+body.level-4 .todo-button.edit {
+    background: linear-gradient(
+        90deg,
+        rgb(140 253 251) 0%,
+        rgb(10 91 162) 100%
+      )
+}
+  
+body.level-4 .todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+        90deg,
+        rgb(54 166 155) 0%,
+        rgb(3 44 37) 100%
+      )
+}
+
+body.level-4 .todo-row:nth-child(4n + 2) {
+    background: linear-gradient(
+        90deg,
+        rgb(3 43 36) 0%,
+        rgb(1 92 85) 100%
+      );
+}
+  
+body.level-4 .todo-row:nth-child(4n + 3) {
+    background: linear-gradient(
+        90deg,
+        rgb(1 91 84) 0%,
+        rgb(32 130 113) 100%
+      );
+}
+  
+body.level-4 .todo-row:nth-child(4n + 4) {
+    background: linear-gradient(
+        90deg,
+        rgb(32 129 113) 0%,
+        rgb(54 167 156) 100%
+      );
+}
