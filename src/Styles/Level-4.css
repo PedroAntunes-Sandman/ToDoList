@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body.level-4 h1#chapter::before {
     content: "Capítulo 4 - Olimpo em Ruínas";
 }

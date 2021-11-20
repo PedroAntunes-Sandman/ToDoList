@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body.level-2 h1#chapter::before {
     content: "Capítulo 2 - Em direção ao Olimpo";
 }

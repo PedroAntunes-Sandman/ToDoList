@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body.level-3 h1#chapter::before {
     content: "Capítulo 3 - Batalhas internas";
 }
