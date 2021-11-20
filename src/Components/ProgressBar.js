@@ -3,7 +3,7 @@ import React from 'react'
 function XpCounter({XPcount, levelup}) {
 
      return (
-        <div className='level'>
+        <div className='leveling'>
             <h1>Level: {levelup}</h1>
     
             <div className="progress">

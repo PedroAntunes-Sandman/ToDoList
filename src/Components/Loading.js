@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Loading({levelup}) {
+function Loading({Lvlup}) {
 
     const RemoveLoading = () => {
         document.getElementById('loading').classList.remove('active');
@@ -9,7 +9,7 @@ function Loading({levelup}) {
     return (
         <div 
         onClick={RemoveLoading} 
-        className = { levelup>5 ? `level-${ levelup } active` : `level`}
+        className = { Lvlup<6 ? `level-${ Lvlup } active` : `level`}
         id="loading" 
         >
             <h1 id='chapter'> </h1>

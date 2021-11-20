@@ -1,25 +1,15 @@
-
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-#quest{
-	color: white;
+#quest {
+    color: white;
     font-size: 20px;
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
-#close::before{
-	content: "Continuar";
-    margin-top: 20px;
-    font-size: 15px;
-    display: block;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.level {
-	margin: 5px auto;
+.leveling {
+    margin: 5px auto;
     margin-bottom: -45px;
     display: flex;
     align-items: center;
@@ -29,28 +19,28 @@
 }
 
 .progress {
-	background-color: transparent;
-	border: solid 1px #498282;
-	border-radius: 20px;
-	position: relative;
-	height: 30px;
-	width: 300px;
+    background-color: transparent;
+    border: solid 1px #498282;
+    border-radius: 20px;
+    position: relative;
+    height: 30px;
+    width: 300px;
 }
 
 .progress-done {
-	background: linear-gradient(to left, #72f270, #72ebff);
-	box-shadow: 0 3px 3px -5px #72ebff, 0 2px 5px #5aa990;
-	border-radius: 20px;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	height: 100%;
-	transition: 0.4s;
+    background: linear-gradient(to left, #72f270, #72ebff);
+    box-shadow: 0 3px 3px -5px #72ebff, 0 2px 5px #5aa990;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.4s;
 }
 
-.progress-done p{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.progress-done p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -1,100 +1,63 @@
 body.level-1 h1#chapter::before {
-  content: "Capítulo 1 - O Fragmento que estava na praça";
+    content: "Capítulo 1 - O Fragmento";
 }
 
-body.level-1 p#story::before{
-  content:"'Psiu, você ai... Isso mesmo, você. Pode me ajudar? Eu me perdi e o vento me jogou nessa praça, você é o primeiro que aparece aqui em horas.'";
+body.level-1 p#story::before {
+    content: "'Psiu, você ai... Isso mesmo, você. Pode me ajudar? Eu me perdi e o vento me jogou nessa praça, você é o primeiro que aparece aqui em horas.'";
 }
 
-body.level-1 p#story::after{
-  content:"'Eu sou o que vocês chamam de Fragmento do Olimpo, mas antes de tudo, me mostre o que você sabe fazer.'";
+body.level-1 p#story::after {
+    content: "'Eu sou o que vocês chamam de Fragmento do Olimpo, mas antes de tudo, me mostre o que você sabe fazer.'";
 }
 
 body.level-1 {
     background-image: url('../images/wallpaper-level-1.gif');
 }
 
-body.level-1  h1#texto-principal::before {
-  content: "Quando um homem tem força de vontade, os deuses dão uma ajuda";
-  display: block;
-  max-width: 400px;
-  margin: auto;
+body.level-1 h1#texto-principal::before {
+    content: "Quando um homem tem força de vontade, os deuses dão uma ajuda";
+    display: block;
+    max-width: 400px;
+    margin: auto;
 }
 
 body.level-1 p#quest::after {
-  content: "Faça Tarefas Comuns";
+    content: "Faça Tarefas Comuns";
 }
 
-p#story {
-  max-width: 400px;
-  margin: auto;
-  display: grid;
-  gap: 20px;
+body.level-1 .progress {
+    border: solid 1px #467d81;
 }
 
-body.level-1 .progress{
-  border: solid 1px #467d81;
+body.level-1 .todo-input {
+    border: 2px solid #467d81;
 }
 
-body.level-1 .todo-input{
-  border: 2px solid #467d81;
-}
-
-body.level-1 .todo-app{
-    background: linear-gradient(
-      90deg,
-      rgb(13 35 62) 0%,
-      rgb(61 97 127) 100%
-    );
+body.level-1 .todo-app {
+    background: linear-gradient( 90deg, rgb(13 35 62) 0%, rgb(61 97 127) 100%);
     border: solid 3px #00878b;
 }
 
 body.level-1 .todo-button {
-    background: linear-gradient(
-      90deg,
-      rgb(2 133 139) 0%,
-      rgb(143 203 107) 100%
-    );
+    background: linear-gradient( 90deg, rgb(2 133 139) 0%, rgb(143 203 107) 100%);
 }
 
 body.level-1 .todo-button.edit {
-    background: linear-gradient(
-      90deg,
-      rgb(112 219 226) 0%,
-      rgb(212 255 232) 100%
-    );
+    background: linear-gradient( 90deg, rgb(2 133 139) 0%, rgb(71 111 163) 100%);
 }
 
+body.level-1 .todo-row:nth-child(4n+2) {
+    background: linear-gradient( 90deg, rgb(227 223 187) 0%, rgb(195 183 179) 100%);
+}
 
-body.level-1 .todo-row{
-    background: linear-gradient(
-      90deg,
-      rgb(14 130 144) 0%,
-      rgb(72 107 160) 100%
-    );
-  }
-  
-  body.level-1  .todo-row:nth-child(4n + 1) {
-    background: linear-gradient(
-      90deg,
-      rgb(227 223 187) 0%,
-      rgb(195 183 179) 100%
-    );
-  }
-  
-  body.level-1  .todo-row:nth-child(4n + 2) {
-    background: linear-gradient(
-      90deg,
-      rgb(196 185 179) 0%,
-      rgb(65 114 160) 100%
-    );
-  }
-  
-  body.level-1  .todo-row:nth-child(4n + 3) {
-    background: linear-gradient(
-      90deg,
-      rgb(72 112 163) 0%,
-      rgb(0 135 139) 100%
-    );
-  }
-  
+body.level-1 .todo-row:nth-child(4n+3) {
+    background: linear-gradient( 90deg, rgb(196 185 179) 0%, rgb(65 114 160) 100%);
+}
+
+body.level-1 .todo-row:nth-child(4n+4) {
+    background: linear-gradient( 90deg, rgb(72 112 163) 0%, rgb(0 135 139) 100%);
+}
+
+body.level-1 .todo-row:nth-child(4n+1) {
+    background: linear-gradient( 90deg, rgb(14 130 144) 0%, rgb(226 221 186) 100%);
+}

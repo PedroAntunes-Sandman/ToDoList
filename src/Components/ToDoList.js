@@ -36,11 +36,7 @@ function ToDoList() {
         setXPCount(XPcount+20);
 
         if(XPcount===80){
-
-            setTimeout(() => {
-                document.getElementById('loading').classList.add('active');
-            }, 300);
-
+            
             setTimeout(() => {
                 setXPCount(0);
             }, 500);
@@ -103,7 +99,7 @@ function ToDoList() {
     return (
         <div>
             <Loading 
-                levelup = {Lvlup}
+                Lvlup = {Lvlup}
             />
             <p id="quest"> Quest Atual:  </p>
             <ProgressBar

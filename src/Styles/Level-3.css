@@ -1,21 +1,21 @@
 body.level-3 h1#chapter::before {
-  content: "Capítulo 3 - Batalhas internas";
+    content: "Capítulo 3 - Batalhas internas";
 }
 
-body.level-3 p#story::before{
-  content:"'Parabéns... você! Agora falta pouco para nos conectarmos totalmente'";
+body.level-3 p#story::before {
+    content: "'Parabéns... você! Você foi muito bem até aqui! '";
 }
 
-body.level-3 p#story::after{
-  content:"'Para sermos um, você precisa aaumentar sua força de vontade. Significa que é hora de enfrentar seu maior inimigo... você mesmo!'";
+body.level-3 p#story::after {
+    content: "'Mas, sabe, nem tudo é sobre ser produtivo, vamos descansar um pouco antes de continuar. Me diga, o que você gosta de fazer para relaxar?'";
 }
 
 body.level-3 {
     background-image: url('../images/wallpaper-level-3.gif');
 }
 
-body.level-3  h1#texto-principal::before {
-    content: "As batalhas mais difíceis, são aquelas travadas e disputadas dentro da sua mente.";
+body.level-3 h1#texto-principal::before {
+    content: "Sua mente vai responder a maioria das perguntas se você aprender a relaxar e esperar pela resposta.";
     display: block;
     max-width: 400px;
     margin: auto;
@@ -25,67 +25,39 @@ body.level-3 p#quest::after {
     content: "Combata maus hábitos";
 }
 
-body.level-3 .progress{
+body.level-3 .progress {
     border: solid 1px #737292;
 }
 
-body.level-3 .todo-input{
+body.level-3 .todo-input {
     border: 2px solid #737292;
 }
-  
-body.level-3 .todo-app{
-    background: linear-gradient( 
-        30deg , 
-        #020308 30%, 
-        #222e42 90% );
+
+body.level-3 .todo-app {
+    background: linear-gradient( 30deg, #020308 30%, #222e42 90%);
     border: solid 3px#2c3c54;
 }
-  
+
 body.level-3 .todo-button {
-    background: linear-gradient(
-        90deg,
-        rgb(115 114 146) 0%,
-        rgb(179 75 41) 100%
-    );
+    background: linear-gradient( 90deg, rgb(115 114 146) 0%, rgb(179 75 41) 100%);
 }
-  
+
 body.level-3 .todo-button.edit {
-    background: linear-gradient(
-      90deg,
-      rgb(112 219 226) 0%,
-      rgb(212 255 232) 100%
-    );
+    background: linear-gradient( 90deg, rgb(115 114 146) 0%, rgb(101 134 50) 100%)
 }
 
-  
-body.level-3 .todo-row {
-    background: linear-gradient(
-        90deg,
-        rgb(55 85 32) 0%,
-        rgb(58 33 24) 100%
-      );
+body.level-3 .todo-row:nth-child(4n+1) {
+    background: linear-gradient( 90deg, rgb(55 85 32) 0%, rgb(58 33 24) 100%);
 }
 
-body.level-3 .todo-row:nth-child(4n + 1) {
-    background: linear-gradient(
-        90deg,
-        rgb(118 112 141) 0%,
-        rgb(177 77 45) 100%
-      );
+body.level-3 .todo-row:nth-child(4n+2) {
+    background: linear-gradient( 90deg, rgb(58 34 24) 0%, rgb(177 77 45) 100%)
 }
-  
-body.level-3 .todo-row:nth-child(4n + 2) {
-    background: linear-gradient(
-        90deg,
-        rgb(175 78 47) 0%,
-        rgb(31 43 61) 100%
-      );
+
+body.level-3 .todo-row:nth-child(4n+3) {
+    background: linear-gradient( 90deg, rgb(175 78 47) 0%, rgb(31 43 61) 100%);
 }
-  
-body.level-3 .todo-row:nth-child(4n + 3) {
-    background: linear-gradient(
-        90deg,
-        rgb(32 43 61) 0%,
-        rgb(56 86 32) 100%
-      );
+
+body.level-3 .todo-row:nth-child(4n+4) {
+    background: linear-gradient( 90deg, rgb(32 43 61) 0%, rgb(56 86 32) 100%);
 }
