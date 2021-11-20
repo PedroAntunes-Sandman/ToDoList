@@ -1,0 +1,63 @@
+body.level-5 h1#chapter::before {
+    content: "Capítulo 5 - Finalmente, Olimpo";
+}
+
+body.level-5 p#story::before {
+    content: "'Esse é o Olimpo que me lembro. Obrigado, você. Pode passar o tempo que quiser aqui antes de voltar.'";
+}
+
+body.level-5 p#story::after {
+    content: "'Mas, sabe, quando voltar para a cidade, fique de olho em fragmentos pela praça. Quem sabe eu volte algum dia para te visitar'";
+}
+
+body.level-5 {
+    background-image: url('../images/wallpaper-level-5.gif');
+}
+
+body.level-5 h1#texto-principal::before {
+    content: "Há uma força motriz mais poderosa que o vapor, a eletricidade e a energia atômica: a vontade.";
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+body.level-5 p#quest::after {
+    content: "Aproveite o Olimpo";
+}
+
+body.level-5 .todo-app {
+    background: linear-gradient( 3deg, #8b646c 30%, #0ed4be 90%);
+    border: solid 3px #25e2cd;
+}
+
+body.level-5 .progress {
+    border: solid 1px #ffffff;
+}
+
+body.level-5 .todo-input {
+    border: 2px solid #b3b3b3;
+}
+
+body.level-5 .todo-button {
+    background: linear-gradient( 90deg, #b3b3b3 0%, #0ed4be 100%);
+}
+
+body.level-5 .todo-button.edit {
+    background: linear-gradient( 90deg, #0ed4be 0%, #b3b3b3 100%);
+}
+
+body.level-5 .todo-row:nth-child(4n+1) {
+    background: linear-gradient( 90deg, rgb(105 179 23) 0%, rgb(163 123 120) 100%)
+}
+
+body.level-5 .todo-row:nth-child(4n+2) {
+    background: linear-gradient( 90deg, rgb(161 121 119) 0%, rgb(198 167 142) 100%)
+}
+
+body.level-5 .todo-row:nth-child(4n+3) {
+    background: linear-gradient( 90deg, rgb(191 158 137) 0%, rgb(94 136 54) 100%);
+}
+
+body.level-5 .todo-row:nth-child(4n+4) {
+    background: linear-gradient( 90deg, rgb(94 136 54) 0%, rgb(106 180 23) 100%);
+}
