@@ -22,7 +22,7 @@ body.level-3 h1#texto-principal::before {
 }
 
 body.level-3 p#quest::after {
-    content: "Combata maus hábitos";
+    content: "Faça algo que te relaxe";
 }
 
 body.level-3 .progress {
