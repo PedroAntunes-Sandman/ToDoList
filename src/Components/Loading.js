@@ -7,15 +7,14 @@ function Loading({Lvlup}) {
     }
 
     return (
-        <div 
-        onClick={RemoveLoading} 
+        <div
         className = { Lvlup<6 ? `level-${ Lvlup } active` : `level`}
         id="loading" 
         >
             <h1 id='chapter'> </h1>
             <p id='ilustration'> </p>
-            <p id='story'></p>
-            <div id='close'></div>
+            <p id='story'> </p>
+            <div onClick={RemoveLoading} id='close'> </div>
         </div>
     )
 }

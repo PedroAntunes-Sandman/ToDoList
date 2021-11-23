@@ -4,6 +4,7 @@ function XpCounter({XPcount, levelup}) {
 
      return (
         <div className='leveling'>
+            
             <h1>Level: {levelup}</h1>
     
             <div className="progress">

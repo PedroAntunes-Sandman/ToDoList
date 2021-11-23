@@ -61,7 +61,7 @@ function ToDoForm(props) {
                 <>
                     <input 
                     type='text' 
-                    placeholder='Adicionar' 
+                    placeholder='Adicionar uma tarefa' 
                     value={input}
                     name='text'
                     className='todo-input'

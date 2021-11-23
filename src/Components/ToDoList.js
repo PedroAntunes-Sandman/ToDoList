@@ -35,7 +35,7 @@ function ToDoList() {
 
         setXPCount(XPcount+20);
 
-        if(XPcount===80){
+        if(XPcount===80 || XPcount===90){
             
             setTimeout(() => {
                 setXPCount(0);
@@ -79,6 +79,10 @@ function ToDoList() {
     };
 
     const removeToDo = id => {
+
+        if(XPcount===10 || XPcount>10){
+            setXPCount(XPcount-10);
+        }
             
         const removeArr = [...ToDos].filter(ToDo => ToDo.id !== id);
 
@@ -96,8 +100,16 @@ function ToDoList() {
         setToDos(updatedToDos)
     }
 
+    const AddLoading = () => {
+        document.getElementById('loading').classList.add('active');
+    }
+
     return (
         <div>
+            <div onClick={AddLoading} class="return-story tooltip">
+            <img src="https://img.icons8.com/doodle/48/000000/graduation-scroll.png"/>
+            <span class="tooltiptext">Rever capítulo</span>
+            </div>
             <Loading 
                 Lvlup = {Lvlup}
             />

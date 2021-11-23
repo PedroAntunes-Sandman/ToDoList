@@ -25,11 +25,29 @@ p#story {
     gap: 20px;
 }
 
+div#close {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 30px auto;
+}
+
 #close::before {
     content: "Continuar";
-    margin-top: 20px;
     font-size: 15px;
     display: block;
     cursor: pointer;
     color: #e7d608;
+}
+
+.return-story {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: -75px;
+    width: fit-content;
+}
+
+.return-story img {
+    cursor: pointer;
 }

@@ -33,20 +33,23 @@ function ToDo({ToDos, completeToDo, removeToDo, updateToDo, DoneToDo}) {
         <div className='icons'>
             <div 
               onClick={() => setEdit({id: ToDo.id, value: ToDo.text})} 
-              className='edit-icon'>
+              className='edit-icon tooltip'>
               <img alt="edit-icon" src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png"/>
+              <span class="tooltiptext">Editar</span>
             </div>
 
             <div 
               onClick={() => DoneToDo(ToDo.id)} 
-              className='done-icon'>
+              className='done-icon tooltip'>
               <img alt="done-icon" src="https://img.icons8.com/material-rounded/24/000000/task-completed.png"/>
+              <span class="tooltiptext">Completar</span>
             </div>
 
             <div 
               onClick={() => removeToDo(ToDo.id)} 
-              className='delete-icon'>
+              className='delete-icon tooltip'>
               <img alt="delete-icon" src="https://img.icons8.com/material-rounded/24/000000/delete-sign.png"/>
+              <span class="tooltiptext">Remover</span>
             </div>
         </div>
 
